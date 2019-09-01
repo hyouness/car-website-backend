@@ -1,8 +1,11 @@
 package com.udacity.pricing.service;
 
-public class PriceException extends Exception {
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
 
-    public PriceException(String message) {
-        super(message);
+@ResponseStatus(HttpStatus.NOT_FOUND)
+public class PriceException extends Exception {
+    PriceException() {
+        super("No Price(s) found...");
     }
 }
