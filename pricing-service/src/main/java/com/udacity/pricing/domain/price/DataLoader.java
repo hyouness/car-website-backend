@@ -1,4 +1,4 @@
-package com.udacity.pricing.service;
+package com.udacity.pricing.domain.price;
 
 import com.udacity.pricing.domain.price.Price;
 import com.udacity.pricing.domain.price.PriceRepository;
