@@ -24,6 +24,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 @EnableEurekaClient
 public class VehiclesApiApplication {
 
+    // Credit: "Talk about WebClient's LoadBalance support" http://www.programmersought.com/article/5385639834/;jsessionid=C6C72E5BDA5A2883D27B24D5E7412D4E
     private LoadBalancerExchangeFilterFunction lbFunction;
 
     public static void main(String[] args) {
