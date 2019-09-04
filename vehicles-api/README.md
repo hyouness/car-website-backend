@@ -1,11 +1,11 @@
 # Vehicles API
 
-A REST API to maintain vehicle data and to provide a complete
+A Microservice to maintain vehicle data and to provide a complete
 view of vehicle details including price and address.
 
 ## Features
 
-- REST API exploring the main HTTP verbs and features
+- Microservice exploring the main HTTP verbs and features
 - Hateoas
 - Custom API Error handling using `ControllerAdvice`
 - Swagger API docs
@@ -14,12 +14,6 @@ view of vehicle details including price and address.
 - Automatic model mapping
 
 ## Instructions
-
-#### TODOs
-
-- Implement the `TODOs` within the `CarService.java` and `CarController.java`  files
-- Add additional tests to the `CarControllerTest.java` file based on the `TODOs`
-- Implement API documentation using Swagger
 
 #### Run the Code
 
