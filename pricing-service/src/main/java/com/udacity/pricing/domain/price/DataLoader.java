@@ -12,6 +12,7 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
 import java.util.stream.LongStream;
 
+// Credit: https://stackoverflow.com/questions/38040572/spring-boot-loading-initial-data/45908701
 @Component
 public class DataLoader implements ApplicationRunner {
 
