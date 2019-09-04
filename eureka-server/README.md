@@ -1,7 +1,7 @@
 # Eureka Server
 
 This project creates a Eureka Server that is used for service registration and discovery. 
-Two micro-services are programmed to register with this server: pricing-service and vehicles-api
+Two micro-services are programmed to register with this server: **pricing-service** and **vehicles-api**.
 
 ## Instructions
 
